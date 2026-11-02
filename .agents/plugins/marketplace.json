@@ -1,0 +1,19 @@
+{
+  "name": "sanka",
+  "interface": {
+    "displayName": "Sanka"
+  },
+  "plugins": [
+    {
+      "name": "sanka",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sanka"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
